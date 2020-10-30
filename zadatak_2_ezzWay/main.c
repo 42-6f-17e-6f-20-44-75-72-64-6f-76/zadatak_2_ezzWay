@@ -87,14 +87,14 @@ int main(void) {
 
 
 
-	puts("\Izbrisimo element u listi...\n");
+	puts("\nIzbrisimo element u listi...\n");
 
 	if (deleteElement(&head, findElement(&head, "Senta")))
 		puts("Element NIJE PRONADJEN!");
 	else
 		puts("Element JE IZBRISAN!");
 
-	puts("\Potrazimo IZBRISANI element u listi...\n");
+	puts("\nPotrazimo IZBRISANI element u listi...\n");
 	printObjConnector(findElement(&head, "Senta"));
 
 	printList(&head);
